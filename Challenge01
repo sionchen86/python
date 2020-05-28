@@ -1,5 +1,3 @@
-#Write your function here
-
 def every_three_nums(start):
   n = start
   list = []
@@ -9,5 +7,4 @@ def every_three_nums(start):
     n = n+3
   return list
 
-#Uncomment the line below when your function is done
 print(every_three_nums(91))
