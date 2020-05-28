@@ -1,0 +1,16 @@
+def every_three_nums(start):
+  # First assign n and list
+  n = start # n is only equal to start at the start
+  list = []
+  
+  # make forloop with range.
+  for n in range(start,101,3):
+    list.append(n)
+    n = n+3
+    # every iteration list is appended with n
+    # after each iteration, n is increased by 3
+    # it will stop before 101
+    
+  return list
+
+print(every_three_nums(91))
