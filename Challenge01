@@ -1,0 +1,13 @@
+#Write your function here
+
+def every_three_nums(start):
+  n = start
+  list = []
+  
+  for n in range(start,101,3):
+    list.append(n)
+    n = n+3
+  return list
+
+#Uncomment the line below when your function is done
+print(every_three_nums(91))
